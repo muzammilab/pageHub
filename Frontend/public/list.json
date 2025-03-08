@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name":"Physics",
+        "title":"Deep knowledge in the field of Physics",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.593185858.1726903320&semt=ais_hybrid"
+    },
+    {
+        "id": 2,
+        "name":"Chemistry",
+        "title":"Deep knowledge in the field of Chemistry",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.593185858.1726903320&semt=ais_hybrid"
+    },
+    {
+        "id": 3,
+        "name":"Mathematics",
+        "title":"Deep knowledge in the field of Maths",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.593185858.1726903320&semt=ais_hybrid"
+    },
+    {
+        "id": 4,
+        "name":"Basic Electrical Engineering",
+        "title":"Deep knowledge in the field of BEE",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.593185858.1726903320&semt=ais_hybrid"
+    },
+    {
+        "id": 5,
+        "name":"Engineering Mechanics",
+        "title":"Deep knowledge in the field of EM",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.593185858.1726903320&semt=ais_hybrid"
+    },
+    {
+        "id": 6,
+        "name":"CP",
+        "title":"Deep knowledge in the field of C",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.593185858.1726903320&semt=ais_hybrid"
+    },
+    {
+        "id": 7,
+        "name":"DBMS",
+        "title":"Deep knowledge in the field of DBMS",
+        "price":210,
+        "category":"Paid",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.593185858.1726903320&semt=ais_hybrid"
+    },
+    {
+        "id": 8,
+        "name":"Analysis of Algorithm",
+        "title":"Deep knowledge in the field of AOA",
+        "price":180,
+        "category":"Paid",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.593185858.1726903320&semt=ais_hybrid"
+    },
+    {
+        "id": 9,
+        "name":"Microprocessor",
+        "title":"Deep knowledge in the field of MP",
+        "price":150,
+        "category":"Paid",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.593185858.1726903320&semt=ais_hybrid"
+    },
+    {
+        "id": 10,
+        "name":"Data Structures",
+        "title":"Deep knowledge in the field of DS",
+        "price":100,
+        "category":"Paid",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.593185858.1726903320&semt=ais_hybrid"
+    },
+    {
+        "id": 11,
+        "name":"Graph Theory",
+        "title":"Deep knowledge in the field of Graph",
+        "price":200,
+        "category":"Paid",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.593185858.1726903320&semt=ais_hybrid"
+    },
+    {
+        "id": 12,
+        "name":"Engineering Graphics",
+        "title":"Deep knowledge in the field of Graphics",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.593185858.1726903320&semt=ais_hybrid"
+    }
+]
