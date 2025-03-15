@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
+import axios from "axios";
 import Signup from "./Signup";
+import toast from "react-hot-toast";
 
 function Login() {
   const {
@@ -9,7 +11,31 @@ function Login() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = async (data) => {
+    const userInfo = {
+      email: data.email,
+      password: data.password,
+    };
+    await axios
+      .post("http://localhost:3001/user/login", userInfo)
+      .then((res) => {
+        console.log(res.data);
+        if (res.data) {
+          toast.success("Loggedin succesfully");
+          document.getElementById("my_modal_3").close();
+          setTimeout(() => {
+            window.location.reload(); //taki hume khudse page reload na karna pade. 
+            localStorage.setItem("Users", JSON.stringify(res.data.user)); //localStorage me store karre hai user ki info taki course page ko unauthorised user se protect kar sake.
+          }, 2000);
+        }
+      })
+      .catch((err) => {
+        console.log(err.response.data.message);
+        toast.error("Error: " + err.response.data.message); // dono message ek saath print karana hai toh isliye plus lagaye concatanate karne ke liye.
+        setTimeout(() => {}, 2000);
+      });
+  };
+
   return (
     <>
       <dialog id="my_modal_3" className="modal">
@@ -25,9 +51,11 @@ function Login() {
             <Link
               to="/"
               className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+              onClick={() => document.getElementById("my_modal_3").close()}
             >
               ✕
             </Link>
+
             {/* Email */}
             <div className="form-control w-full">
               <label className="label">
