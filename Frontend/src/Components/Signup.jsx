@@ -20,7 +20,7 @@ function Signup() {
       password: data.password,
     };
     await axios
-      .post("https://pagehub.onrender.com/user/signup", userInfo)
+      .post("http://localhost:3001/user/signup", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
