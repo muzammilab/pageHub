@@ -47,7 +47,7 @@ function Freebook() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("http://localhost:3001/book");
+        const res = await axios.get("https://pagehub.onrender.com/book");
         const data = res.data.filter((data) => data.category === "Free");
         setBook(data);
         console.log(data);
